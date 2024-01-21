@@ -1,0 +1,105 @@
+img{
+    width: 150px;
+    height: 100px;
+}
+h4{
+    color: red;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .functions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0px;
+    button{
+        width: 150px;
+        height: 33px;
+        border-radius: 15px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        background-color: #930077;
+        color: white;
+        transition: 400ms;
+        &:hover{
+            background-color: white;
+            color: #930077;
+            border: 1px solid #930077;
+        }
+
+    }
+    input{
+        width: 200px;
+        height: 33px;
+        padding-left: 5px;
+    }
+  }
+.formik{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form{
+    margin: 25px 0px;
+    width: 350px;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    label{
+      width: 230px;
+      height: 44px;
+      position: relative;
+      p{
+        position: absolute;
+        bottom: -30px;
+        left: 20px;
+        background-color: white;
+      }
+    }
+    input{
+      width: 230px;
+      height: 44px;
+      border-radius:20px;
+      padding-left: 20px;
+    }
+    button{
+      width: 150px;
+      height: 33px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      border: none;
+      background-color: #930077;
+      color: white;
+    }
+  }
+}
